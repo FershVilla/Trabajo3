@@ -1,0 +1,118 @@
+body{
+    background-image: url('img/fondo.jpg');
+    height: 100%;
+    background-color: #cccccc;
+    font-family: arial, sans-serif;
+}
+#home{
+    background-color: rgb(253, 253, 253, .9) ;
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    color: darkred;
+    background-color: white;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+table{
+    margin: 7% auto;
+    background-color: white;
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#candidatos img{
+    width: 200px; 
+    height: 200px;
+}
+
+table p{
+    background-color: white;
+    margin: 0%;
+    color: black;
+}
+
+#encuestas{
+    padding-bottom: 2%;
+}
+#encuestas img{
+    width: 110px; 
+    height: 70px;
+}
+footer{
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(253, 253, 253, .3) ;
+    margin: 5% 35%;
+    color: white;
+}
+
+ol{
+    text-align: center;
+    list-style: none;
+    font-size: larger;
+    color: darkred;
+    padding-bottom: 3%;
+}
+li{
+    margin: 3%;
+}
+
+#volver{
+    width: 100px;
+    height: 100px;
+}
+
+#divVolver {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
+}
+
+#imagenCandidato img{
+    border-radius: 50%;
+    width: 15%;
+}
+
+#imagenCandidato{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#informacion{
+    font-size: 150%;
+}
+
+#informacion p{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    padding-top: 0%;
+}
+
+video {
+    width: 420px ;
+    height: 340px;
+}
+iframe{
+    width: 420px ;
+    height: 340px;
+}
+
+
