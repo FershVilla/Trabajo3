@@ -108,7 +108,7 @@ li{
     justify-content: center;
 }
 
-.video{
+.video {
     display: flex;
     justify-content: center;
     padding: 5%;
@@ -134,3 +134,9 @@ iframe{
     justify-content: center;
 }
 
+.audio{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    padding-top: 0%;
+}
